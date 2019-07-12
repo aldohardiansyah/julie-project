@@ -1,6 +1,30 @@
-// App Styles
-// ----------------------------------------------------------------------------
-// Put style rules here that you want to apply to the entire application. These 
-// styles are for the entire app and not just one component. Additionally, this 
-// file can hold Sass mixins, functions, and placeholder classes to be imported 
-// and used throughout the application.
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+.app-navbar{
+    padding: 0px 25px;
+}
+    
+.app-title{
+    font-size: 17px;
+    font-weight: 500;
+}
+.app-menu{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.app-spacer{
+    padding: 0px 10px;
+}
+
+.app-align-right{
+    right: 0px;
+}
+
+.example-icon {
+padding: 0 14px;
+}
+  
+.example-spacer {
+flex: 1 1 auto;
+}
